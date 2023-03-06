@@ -14,17 +14,17 @@ import yt from './../Assets/youtube.png'
 function Footer() {
   return (
     <div className='flex justify-center items-center flex-col mt-44'>
-      <div className='flex-row flex items-center justify-center gap-24'>
+      <div className='md:flex-row flex-col flex items-center justify-center gap-24'>
 
-        <div className='flex items-center justify-center gap-2'>
+        <div className='md:flex-row flex-col flex items-center justify-center gap-2'>
           <img src={home} alt="" />
           <p>Home</p>
         </div>
-        <div className='flex items-center justify-center gap-2'>
+        <div className='md:flex-row flex-col flex items-center justify-center gap-2'>
           <img src={user} alt="" />
           <p>About Me</p>
         </div>
-        <div className='flex items-center justify-center gap-2'>
+        <div className='md:flex-row flex-col flex items-center justify-center gap-2'>
          <img src={phone} alt="" />
          <p>Contact</p>
         </div>

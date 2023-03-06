@@ -7,11 +7,11 @@ import thirdImg from "../../Assets/logo2.svg"
 
 function ProjectsSection() {
   return (
-    <div className='my-44 flex items-center justify-center flex-col space-y-12'>
+    <div className='my-24 md:my-44 flex items-center justify-center flex-col space-y-12'>
       <div>
-        <h1 className='font-semibold text-[75px]'>My recent <span className='text-[#00ADB5]'>works</span></h1>
+        <h1 className='font-semibold text-[35px] md:text-[75px]'>My recent <span className='text-[#00ADB5]'>works</span></h1>
       </div>
-      <div className='flex gap-24 bg-[#393E46] px-44 py-24 rounded-3xl'>
+      <div className='flex md:flex-row flex-col gap-10 md:gap-24 bg-[#393E46] px-12 md:px-44 py-12 md:py-24 rounded-3xl'>
 
         
 
@@ -28,7 +28,7 @@ function ProjectsSection() {
         <motion.div
         whileHover={{ scale: 1.1 }}
         animate={{transition: easeInOut}}
-        className='px-16 bg-[#e2e2e2] rounded-3xl flex items-center justify-center'>
+        className='p-16 bg-[#e2e2e2] rounded-3xl flex items-center justify-center'>
             <a href="https://first-ecommerceapp.vercel.app" target='_blank' rel='noreferrer'>
              <img src={firstImg} alt="item" />
             </a>
