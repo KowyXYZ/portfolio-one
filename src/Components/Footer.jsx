@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 //assets
 
 import home from './../Assets/home.png'
@@ -13,21 +13,29 @@ import yt from './../Assets/youtube.png'
 
 function Footer() {
   return (
-    <div className='flex justify-center items-center flex-col mt-44'>
+    <div className='flex justify-center items-center flex-col mt-24'>
       <div className='md:flex-row flex-col flex items-center justify-center gap-24'>
-
-        <div className='md:flex-row flex-col flex items-center justify-center gap-2'>
-          <img src={home} alt="" />
-          <p>Home</p>
-        </div>
+        <Link to='/'>
+          <div className='md:flex-row flex-col flex items-center justify-center gap-2'>
+            
+            <img src={home} alt="" />
+            <p>Home</p>
+          </div>
+        </Link>
+        
+        <Link to='/about'>
         <div className='md:flex-row flex-col flex items-center justify-center gap-2'>
           <img src={user} alt="" />
           <p>About Me</p>
         </div>
+        </Link>
+
+        <Link to='/contact'>
         <div className='md:flex-row flex-col flex items-center justify-center gap-2'>
          <img src={phone} alt="" />
          <p>Contact</p>
         </div>
+        </Link>
 
       </div>
 

@@ -28,7 +28,7 @@ function ProjectsSection() {
         <motion.div
         whileHover={{ scale: 1.1 }}
         animate={{transition: easeInOut}}
-        className='p-16 bg-[#e2e2e2] rounded-3xl flex items-center justify-center'>
+        className='p-16 py-24 bg-[#e2e2e2] rounded-3xl flex items-center justify-center'>
             <a href="https://first-ecommerceapp.vercel.app" target='_blank' rel='noreferrer'>
              <img src={firstImg} alt="item" />
             </a>
@@ -38,7 +38,7 @@ function ProjectsSection() {
         <motion.div
         whileHover={{ scale: 1.1 }}
         animate={{transition: easeInOut}}
-        className='p-6 bg-[#e2e2e2] rounded-3xl flex items-center justify-center'>
+        className='p-6 py-24 bg-[#e2e2e2] rounded-3xl flex items-center justify-center'>
             <a href="https://first-ecommerceapp.vercel.app">
               <img  className='w-[200px]' src={thirdImg} alt="item" />
             </a>
